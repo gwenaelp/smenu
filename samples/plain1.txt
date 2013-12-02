@@ -1,0 +1,1 @@
+ab,bc,cd,rr,tt,yy,uu,ii,oo,pp

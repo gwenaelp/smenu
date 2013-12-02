@@ -1,0 +1,5 @@
+{
+	"entriesType" : "json",
+	"items" : ["icon", "score", "name"],
+	"searchOn" : "desc"
+}
