@@ -10,11 +10,13 @@ class CompletionList(gtk.TreeView):
 	def __init__(self, entry, completions, datatype):
 
 		print str(type(completions))
-		
+
 		if datatype == "json":
 			completions = json.loads(completions)
 		elif datatype == "plain_newlines":
 			completions = completions.split("\n")
+		elif datatype == "plain_space":
+			completions = completions.split(" ")
 		else:
 			completions = completions.split(",")
 
